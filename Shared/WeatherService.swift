@@ -12,7 +12,7 @@ public var cityName = "Current Location"
 
 public final class WeatherService : NSObject {
     private let locationManager = CLLocationManager()
-    private let APIKey = "d5f891edf0d500515ae628f9cebd0ef8"
+    private let APIKey = "" //removed
     private var completionHandler: ((Weather) -> Void)?
     
     public override init() {
